@@ -1,23 +1,86 @@
 @charset "UTF-8";
-html,body,div,span,object,iframe,img,p,h1,h2,h3,h4,h5,h6,
-blockquote,pre,abbr,address,cite,code,del,dfn,em,ins,kbd,q,samp,
-small,strong,sub,sup,var,b,i,dl,dt,dd,ol,ul,li,fieldset,
-form,label,legend, table,caption,tbody,tfoot,thead,tr,th,td,
-article,aside,canvas,details,figcaption,figure,footer,header,nav,section,
-time,mark,audio,video{
-    margin:0;
-	padding:0;
-	border:0;
-	outline:0;
-	font-size:100%;
-	vertical-align:baseline;
-	background:transparent;
+
+html,
+body,
+div,
+span,
+object,
+iframe,
+img,
+p,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+blockquote,
+pre,
+abbr,
+address,
+cite,
+code,
+del,
+dfn,
+em,
+ins,
+kbd,
+q,
+samp,
+small,
+strong,
+sub,
+sup,
+var,
+b,
+i,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+figcaption,
+figure,
+footer,
+header,
+nav,
+section,
+time,
+mark,
+audio,
+video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  outline: 0;
+  font-size: 100%;
+  vertical-align: baseline;
+  background: transparent;
 }
+
 .main {
-	display: inline;
-	font-family: 'Poppins', sans-serif;
+  display: inline;
+  font-family: 'Poppins', sans-serif;
 
 }
+
 .nav {
   position: fixed;
   top: 0;
@@ -26,43 +89,49 @@ time,mark,audio,video{
   box-shadow: 0 2px 0 rgba(0, 0, 0, 0.4);
   z-index: 10;
 }
+
 .nav-list {
-	padding: 16px;
-	display: flex;
-	justify-content: space-between;
-	background-color: #3F72AF;
+  padding: 16px;
+  display: flex;
+  justify-content: space-between;
+  background-color: #3F72AF;
 }
+
 .nav-list li:first-child {
-	margin-right: auto;
+  margin-right: auto;
 }
+
 .nav-list a {
-	
-	padding: 37px 15px 35px 15px;
-	color: #f9f7f7;
-	text-decoration: none;
-	font-size: 1.2rem;
-	font-weight: 600;
+
+  padding: 37px 15px 35px 15px;
+  color: #f9f7f7;
+  text-decoration: none;
+  font-size: 1.2rem;
+  font-weight: 600;
 }
+
 .nav-list li {
-	list-style: none;
-	
+  list-style: none;
+
 }
 
 .nav-list .li1 a:hover {
-	background-color: #112D4E;
-	display: inline;
+  background-color: #112D4E;
+  display: inline;
 }
+
 /*contents*/
 .col-1 {
-	height: 720px;
-	background-color: #112D4E;
-	color: #f9f7f7;
-	text-align: center;
+  height: 720px;
+  background-color: #112D4E;
+  color: #f9f7f7;
+  text-align: center;
 }
+
 h1 {
-	font-size: 3rem;
-	padding-top: 195px;
-	padding-bottom: 35px;
+  font-size: 3rem;
+  padding-top: 195px;
+  padding-bottom: 35px;
 }
 
 .col-2 {
@@ -70,17 +139,22 @@ h1 {
   padding: 10rem 2rem;
   background: #DBE2EF;
 }
+
 h2 {
-	text-align: center;
-	padding-top: 1px;
-	font-size: 1.4rem;
+  text-align: center;
+  padding-top: 1px;
+  font-size: 1.4rem;
 }
+
 .hr2 {
-	border: 0;
-	border-top: 2px solid #737373; /* Black color with 2px thickness */
-	width: 94%; /* Width of the line */
-	margin: 7px auto; /* Center it and add some margin around */
-	padding: 8px;
+  border: 0;
+  border-top: 2px solid #737373;
+  /* Black color with 2px thickness */
+  width: 94%;
+  /* Width of the line */
+  margin: 7px auto;
+  /* Center it and add some margin around */
+  padding: 8px;
 }
 
 
@@ -93,6 +167,7 @@ h2 {
   margin: 0 auto;
   margin-bottom: 6rem;
 }
+
 @media (max-width: 30.625em) {
   .projects-section {
     padding: 6rem 1rem;
@@ -145,11 +220,11 @@ h2 {
   background: var(--main-red);
 }
 
-.btn-show-all:hover > i {
+.btn-show-all:hover>i {
   transform: translateX(2px);
 }
 
-.btn-show-all > i {
+.btn-show-all>i {
   margin-left: 10px;
   transform: translateX(0);
   transition: transform 0.3s ease-out;
@@ -159,27 +234,28 @@ h2 {
 
 
 .col-3 {
-	display: flex;
- 	flex-direction: column;
- 	justify-content: center;
- 	align-items: center;
- 	text-align: center;
-  	height: 80vh;
-  	padding: 0 2rem;
-	background-color: #112D4E;
-	color: #DBE2EF;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  height: 80vh;
+  padding: 0 2rem;
+  background-color: #112D4E;
+  color: #DBE2EF;
 }
-.contact-section-header > h2 {
+
+.contact-section-header>h2 {
   font-size: 6rem;
 }
 
 @media (max-width: 28.75em) {
-  .contact-section-header > h2 {
+  .contact-section-header>h2 {
     font-size: 4rem;
   }
 }
 
-.contact-section-header > p {
+.contact-section-header>p {
   font-style: italic;
 }
 
@@ -215,7 +291,7 @@ footer {
   font-size: 1.4rem;
 }
 
-footer > p {
+footer>p {
   margin: 2rem;
 }
 
@@ -235,3 +311,43 @@ footer i {
     display: flex;
   }
 }
+
+/* ...existing code... */
+
+@media (max-width: 600px) {
+
+  html,
+  body {
+    font-size: 14px;
+    /* or 15px, adjust as needed */
+  }
+
+  h1 {
+    font-size: 2rem;
+    padding-top: 120px;
+    padding-bottom: 20px;
+  }
+
+  h2 {
+    font-size: 1.1rem;
+  }
+
+  .project-title {
+    font-size: 1.2rem;
+    padding: 1rem 0.5rem;
+  }
+
+  .contact-details {
+    font-size: 1.2rem;
+  }
+
+  .contact-section-header>h2 {
+    font-size: 2.5rem;
+  }
+
+  footer {
+    font-size: 1rem;
+  }
+}
+
+/* ...existing code... */
