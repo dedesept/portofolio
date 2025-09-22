@@ -91,7 +91,7 @@ video {
 }
 
 .nav-list {
-  padding: 16px;
+  padding: 6px;
   display: flex;
   justify-content: space-between;
   background-color: #3F72AF;
@@ -251,7 +251,7 @@ h2 {
 
 @media (max-width: 28.75em) {
   .contact-section-header>h2 {
-    font-size: 4rem;
+    font-size: 2rem;
   }
 }
 
